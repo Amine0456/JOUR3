@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lien CSS -->
+    <link rel="stylesheet" href="css.index.css">
+    <!-- Titre -->
+    <title>BloomPetals</title>
+    <!-- SEO -->
+    <meta name="description" content="Faites de votre prochain événement un moment inoubliable avec BloomPetals. Laissez-nous transformer votre espace en un véritable jardin de féerie, où chaque pétale raconte une histoire d'amour, de bonheur et de célébration.">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="post">
+            <label for="title">Civilité</label>
+            <select id="title" name="title">
+                <option value="M.">M.</option>
+                <option value="Mme.">Mme.</option>
+            </select>
+            <label for="name">Nom-Prénom</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="adresse postale">Adresse Postale</label>
+            <input type="text" id="adresse postale" name="adresse postale" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="checkbox" id="politique" name="vpolitique" value="politique" required>
+            <label for="politique">En cochant, vous acceptez la politique de confidentialité.</label><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+
+</html>

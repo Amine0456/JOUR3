@@ -1,0 +1,116 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Style de la barre de navigation */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #3c80c9;
+    display: flex; 
+    justify-content: flex-start; 
+}
+
+
+/* Style des éléments de la liste */
+li {
+    display: inline-block;
+}
+
+/* Style des liens dans la barre de navigation */
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: #378CE7;
+}
+
+body {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images img {
+    height: auto;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1; 
+    margin: 0 10px;
+}
+
+.services h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color:#378CE7
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #378CE7;
+    height: 50px;
+}
+
+
+    
